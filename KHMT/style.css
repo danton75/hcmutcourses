@@ -1,0 +1,75 @@
+body {
+    background: #ecf0f1;
+}
+
+.node {
+    cursor: pointer;
+}
+
+.node path {
+    fill: #fff;
+    stroke-width: 1.5px;
+}
+
+.node text {
+    font-weight: 600;
+}
+
+.link {
+    fill: none;
+    stroke: #3498db;
+    stroke-width: 1px;
+}
+
+.tool-tip {
+    line-height: 1;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
+    position: absolute;
+    visibility: hidden;
+    z-index: 10;
+}
+
+.tool-tip text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.force_link {
+    fill: none;
+    stroke: #666;
+    stroke-width: 2px;
+}
+
+#arrowHead2 {
+    fill: green;
+}
+
+.type2 {
+    stroke-dasharray: 0, 2 1;
+}
+
+.force_node {
+    cursor: pointer;
+}
+
+.force_node path {
+    fill: #ccc;
+    stroke: #333;
+    stroke-width: 1.5px;
+}
+
+.force_node text {
+    font: 14px sans-serif;
+    text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0px;
+    text-align: center;    
+    width: 100%;
+    color: #999;
+}
