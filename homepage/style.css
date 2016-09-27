@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    background-color: #222222;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    text-align: center;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+    display: block;
+    height: auto;
+    width: auto;
+    background-color: #222222;
+    background: no-repeat center center;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding: 100px 0;
+}
+
+header .intro-content {
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+header .brand-name {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    line-height: 55px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 15px;
+}
+
+header .brand-name-subtext {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+header img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+hr {
+    max-width: 100px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    height: 2px;
+    margin: 15px auto;
+}
+
+hr.left {
+    margin: 15px auto 15px 0;
+}
+
+hr.right {
+    margin: 15px 0 15px auto;
+}
+
+hr.colored {
+    border-color: #41c4ab;
+}
+
+h1 {
+    padding: 50px;
+    color: #f47835;
+    font-size: 75px;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0px;
+    text-align: center;    
+    width: 100%;
+    color: #999;
+}
