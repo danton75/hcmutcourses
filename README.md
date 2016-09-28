@@ -7,4 +7,4 @@ Instructions: Running homepage.html in homepage folder. You will have to choose 
 
 ![ScreenShot](/screenshots/treelayout.png)
 
-![ScreenShot](/screenshots/forcelauout.png)
+![ScreenShot](/screenshots/forcelayout.png)
